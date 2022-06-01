@@ -7,6 +7,36 @@
     <link rel="stylesheet" href="style.css" />
     <title>Form Validation</title>
   </head>
-  <body></body>
+  <body>
+    <div class="form-container">
+      <form class="form">
+        <div class="username">
+          <label for="username"></label>
+          <input type="text" id="username" placeholder="Enter your username" />
+          <small>Invalid username</small>
+        </div>
+        <div class="email">
+          <label for="email"></label>
+          <input type="text" id="email" placeholder="Enter your email" />
+          <small>Invalid email</small>
+        </div>
+        <div class="password">
+          <label for="password"></label>
+          <input type="text" id="password" placeholder="Enter your password" />
+          <small>Invalid password</small>
+        </div>
+        <div class="confirm-password">
+          <label for="confirm-password"></label>
+          <input
+            type="text"
+            id="confirm-password"
+            placeholder="Confirm your password"
+          />
+          <small>Invalid password</small>
+        </div>
+      </form>
+      <button type="submit">Submit</button>
+    </div>
+  </body>
   <script src="app.js"></script>
 </html>
